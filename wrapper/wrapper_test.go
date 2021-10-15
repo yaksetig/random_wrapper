@@ -26,6 +26,7 @@ func TestSign(t *testing.T) {
 	}
 }
 
+// TestG checks if Generator is producing independent random bytes without any errors
 func TestG(t *testing.T) {
 
 	x, errX := G(32)
@@ -77,6 +78,7 @@ func TestPRF2(t *testing.T) {
 	}
 }
 
+// TestKDF checks if KDF is outputting a correctly sized key without any errors
 func TestKDF(t *testing.T) {
 
 	x := []byte("Super Mario")
