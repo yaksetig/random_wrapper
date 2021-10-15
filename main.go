@@ -14,7 +14,7 @@ func main() {
 	// Generate Ed25519 secret key from a seed
 	sk := ed25519.NewKeyFromSeed(seed)
 
-	//
+	// Hardcore a context specific tag value
 	tag := []byte("Super Mario Tag")
 
 	c := []byte("Counter: 256")
