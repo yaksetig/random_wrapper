@@ -1,4 +1,4 @@
-# random_wrapper
+# Randomness Wrapper
 Implementation of the paper "Limiting the impact of unreliable randomness in deployed security protocols" (https://eprint.iacr.org/2018/1057.pdf)
 
 # Problem Statement
